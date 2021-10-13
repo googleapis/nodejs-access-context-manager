@@ -156,7 +156,7 @@ Apache Version 2.0
 
 See [LICENSE](https://github.com/googleapis/nodejs-access-context-manager/blob/main/LICENSE)
 
-[client-docs]: https://cloud.google.com/access-context-manager/docs
+[client-docs]: https://cloud.google.com/nodejs/docs/reference/accesscontextmanager/latest
 [product-docs]: https://cloud.google.com/access-context-manager/
 [shell_img]: https://gstatic.com/cloudssh/images/open-btn.png
 [projects]: https://console.cloud.google.com/project
