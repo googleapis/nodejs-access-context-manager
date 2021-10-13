@@ -15,7 +15,7 @@
 'use strict';
 
 function main(parent) {
-  // [START quickstart_accesscontextmanager]
+  // [START accesscontextmanager_quickstart]
   /**
    * TODO(developer): Uncomment these variables before running the sample.
    */
@@ -59,7 +59,7 @@ function main(parent) {
   }
 
   listAccessPolicies();
-  // [END quickstart_accesscontextmanager]
+  // [END accesscontextmanager_quickstart]
 }
 
 process.on('unhandledRejection', err => {
