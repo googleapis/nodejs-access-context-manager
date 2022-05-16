@@ -171,7 +171,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#listAccessPolicies}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|listAccessPolicies}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef ListAccessPoliciesCallback
                          * @type {function}
@@ -204,7 +204,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#getAccessPolicy}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|getAccessPolicy}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef GetAccessPolicyCallback
                          * @type {function}
@@ -237,7 +237,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#createAccessPolicy}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|createAccessPolicy}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef CreateAccessPolicyCallback
                          * @type {function}
@@ -270,7 +270,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#updateAccessPolicy}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|updateAccessPolicy}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef UpdateAccessPolicyCallback
                          * @type {function}
@@ -303,7 +303,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#deleteAccessPolicy}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|deleteAccessPolicy}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef DeleteAccessPolicyCallback
                          * @type {function}
@@ -336,7 +336,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#listAccessLevels}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|listAccessLevels}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef ListAccessLevelsCallback
                          * @type {function}
@@ -369,7 +369,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#getAccessLevel}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|getAccessLevel}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef GetAccessLevelCallback
                          * @type {function}
@@ -402,7 +402,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#createAccessLevel}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|createAccessLevel}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef CreateAccessLevelCallback
                          * @type {function}
@@ -435,7 +435,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#updateAccessLevel}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|updateAccessLevel}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef UpdateAccessLevelCallback
                          * @type {function}
@@ -468,7 +468,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#deleteAccessLevel}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|deleteAccessLevel}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef DeleteAccessLevelCallback
                          * @type {function}
@@ -501,7 +501,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#replaceAccessLevels}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|replaceAccessLevels}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef ReplaceAccessLevelsCallback
                          * @type {function}
@@ -534,7 +534,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#listServicePerimeters}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|listServicePerimeters}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef ListServicePerimetersCallback
                          * @type {function}
@@ -567,7 +567,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#getServicePerimeter}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|getServicePerimeter}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef GetServicePerimeterCallback
                          * @type {function}
@@ -600,7 +600,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#createServicePerimeter}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|createServicePerimeter}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef CreateServicePerimeterCallback
                          * @type {function}
@@ -633,7 +633,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#updateServicePerimeter}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|updateServicePerimeter}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef UpdateServicePerimeterCallback
                          * @type {function}
@@ -666,7 +666,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#deleteServicePerimeter}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|deleteServicePerimeter}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef DeleteServicePerimeterCallback
                          * @type {function}
@@ -699,7 +699,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#replaceServicePerimeters}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|replaceServicePerimeters}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef ReplaceServicePerimetersCallback
                          * @type {function}
@@ -732,7 +732,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#commitServicePerimeters}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|commitServicePerimeters}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef CommitServicePerimetersCallback
                          * @type {function}
@@ -765,7 +765,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#listGcpUserAccessBindings}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|listGcpUserAccessBindings}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef ListGcpUserAccessBindingsCallback
                          * @type {function}
@@ -798,7 +798,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#getGcpUserAccessBinding}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|getGcpUserAccessBinding}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef GetGcpUserAccessBindingCallback
                          * @type {function}
@@ -831,7 +831,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#createGcpUserAccessBinding}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|createGcpUserAccessBinding}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef CreateGcpUserAccessBindingCallback
                          * @type {function}
@@ -864,7 +864,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#updateGcpUserAccessBinding}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|updateGcpUserAccessBinding}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef UpdateGcpUserAccessBindingCallback
                          * @type {function}
@@ -897,7 +897,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#deleteGcpUserAccessBinding}.
+                         * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|deleteGcpUserAccessBinding}.
                          * @memberof google.identity.accesscontextmanager.v1.AccessContextManager
                          * @typedef DeleteGcpUserAccessBindingCallback
                          * @type {function}
@@ -20030,6 +20030,7 @@
                  * @property {boolean|null} [packed] FieldOptions packed
                  * @property {google.protobuf.FieldOptions.JSType|null} [jstype] FieldOptions jstype
                  * @property {boolean|null} [lazy] FieldOptions lazy
+                 * @property {boolean|null} [unverifiedLazy] FieldOptions unverifiedLazy
                  * @property {boolean|null} [deprecated] FieldOptions deprecated
                  * @property {boolean|null} [weak] FieldOptions weak
                  * @property {Array.<google.protobuf.IUninterpretedOption>|null} [uninterpretedOption] FieldOptions uninterpretedOption
@@ -20085,6 +20086,14 @@
                  * @instance
                  */
                 FieldOptions.prototype.lazy = false;
+    
+                /**
+                 * FieldOptions unverifiedLazy.
+                 * @member {boolean} unverifiedLazy
+                 * @memberof google.protobuf.FieldOptions
+                 * @instance
+                 */
+                FieldOptions.prototype.unverifiedLazy = false;
     
                 /**
                  * FieldOptions deprecated.
@@ -20162,6 +20171,8 @@
                         writer.uint32(/* id 6, wireType 0 =*/48).int32(message.jstype);
                     if (message.weak != null && Object.hasOwnProperty.call(message, "weak"))
                         writer.uint32(/* id 10, wireType 0 =*/80).bool(message.weak);
+                    if (message.unverifiedLazy != null && Object.hasOwnProperty.call(message, "unverifiedLazy"))
+                        writer.uint32(/* id 15, wireType 0 =*/120).bool(message.unverifiedLazy);
                     if (message.uninterpretedOption != null && message.uninterpretedOption.length)
                         for (var i = 0; i < message.uninterpretedOption.length; ++i)
                             $root.google.protobuf.UninterpretedOption.encode(message.uninterpretedOption[i], writer.uint32(/* id 999, wireType 2 =*/7994).fork()).ldelim();
@@ -20218,6 +20229,9 @@
                             break;
                         case 5:
                             message.lazy = reader.bool();
+                            break;
+                        case 15:
+                            message.unverifiedLazy = reader.bool();
                             break;
                         case 3:
                             message.deprecated = reader.bool();
@@ -20302,6 +20316,9 @@
                     if (message.lazy != null && message.hasOwnProperty("lazy"))
                         if (typeof message.lazy !== "boolean")
                             return "lazy: boolean expected";
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        if (typeof message.unverifiedLazy !== "boolean")
+                            return "unverifiedLazy: boolean expected";
                     if (message.deprecated != null && message.hasOwnProperty("deprecated"))
                         if (typeof message.deprecated !== "boolean")
                             return "deprecated: boolean expected";
@@ -20387,6 +20404,8 @@
                     }
                     if (object.lazy != null)
                         message.lazy = Boolean(object.lazy);
+                    if (object.unverifiedLazy != null)
+                        message.unverifiedLazy = Boolean(object.unverifiedLazy);
                     if (object.deprecated != null)
                         message.deprecated = Boolean(object.deprecated);
                     if (object.weak != null)
@@ -20474,6 +20493,7 @@
                         object.lazy = false;
                         object.jstype = options.enums === String ? "JS_NORMAL" : 0;
                         object.weak = false;
+                        object.unverifiedLazy = false;
                         object[".google.api.resourceReference"] = null;
                     }
                     if (message.ctype != null && message.hasOwnProperty("ctype"))
@@ -20488,6 +20508,8 @@
                         object.jstype = options.enums === String ? $root.google.protobuf.FieldOptions.JSType[message.jstype] : message.jstype;
                     if (message.weak != null && message.hasOwnProperty("weak"))
                         object.weak = message.weak;
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        object.unverifiedLazy = message.unverifiedLazy;
                     if (message.uninterpretedOption && message.uninterpretedOption.length) {
                         object.uninterpretedOption = [];
                         for (var j = 0; j < message.uninterpretedOption.length; ++j)
@@ -24866,7 +24888,7 @@
                 };
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#listOperations}.
+                 * Callback as used by {@link google.longrunning.Operations|listOperations}.
                  * @memberof google.longrunning.Operations
                  * @typedef ListOperationsCallback
                  * @type {function}
@@ -24899,7 +24921,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#getOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|getOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef GetOperationCallback
                  * @type {function}
@@ -24932,7 +24954,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef DeleteOperationCallback
                  * @type {function}
@@ -24965,7 +24987,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef CancelOperationCallback
                  * @type {function}
@@ -24998,7 +25020,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#waitOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|waitOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef WaitOperationCallback
                  * @type {function}
