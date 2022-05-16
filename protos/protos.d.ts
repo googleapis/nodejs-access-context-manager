@@ -403,161 +403,161 @@ export namespace google {
                 namespace AccessContextManager {
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|listAccessPolicies}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#listAccessPolicies}.
                      * @param error Error, if any
                      * @param [response] ListAccessPoliciesResponse
                      */
                     type ListAccessPoliciesCallback = (error: (Error|null), response?: google.identity.accesscontextmanager.v1.ListAccessPoliciesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|getAccessPolicy}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#getAccessPolicy}.
                      * @param error Error, if any
                      * @param [response] AccessPolicy
                      */
                     type GetAccessPolicyCallback = (error: (Error|null), response?: google.identity.accesscontextmanager.v1.AccessPolicy) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|createAccessPolicy}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#createAccessPolicy}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateAccessPolicyCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|updateAccessPolicy}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#updateAccessPolicy}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateAccessPolicyCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|deleteAccessPolicy}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#deleteAccessPolicy}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteAccessPolicyCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|listAccessLevels}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#listAccessLevels}.
                      * @param error Error, if any
                      * @param [response] ListAccessLevelsResponse
                      */
                     type ListAccessLevelsCallback = (error: (Error|null), response?: google.identity.accesscontextmanager.v1.ListAccessLevelsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|getAccessLevel}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#getAccessLevel}.
                      * @param error Error, if any
                      * @param [response] AccessLevel
                      */
                     type GetAccessLevelCallback = (error: (Error|null), response?: google.identity.accesscontextmanager.v1.AccessLevel) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|createAccessLevel}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#createAccessLevel}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateAccessLevelCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|updateAccessLevel}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#updateAccessLevel}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateAccessLevelCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|deleteAccessLevel}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#deleteAccessLevel}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteAccessLevelCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|replaceAccessLevels}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#replaceAccessLevels}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ReplaceAccessLevelsCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|listServicePerimeters}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#listServicePerimeters}.
                      * @param error Error, if any
                      * @param [response] ListServicePerimetersResponse
                      */
                     type ListServicePerimetersCallback = (error: (Error|null), response?: google.identity.accesscontextmanager.v1.ListServicePerimetersResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|getServicePerimeter}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#getServicePerimeter}.
                      * @param error Error, if any
                      * @param [response] ServicePerimeter
                      */
                     type GetServicePerimeterCallback = (error: (Error|null), response?: google.identity.accesscontextmanager.v1.ServicePerimeter) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|createServicePerimeter}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#createServicePerimeter}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateServicePerimeterCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|updateServicePerimeter}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#updateServicePerimeter}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateServicePerimeterCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|deleteServicePerimeter}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#deleteServicePerimeter}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteServicePerimeterCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|replaceServicePerimeters}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#replaceServicePerimeters}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ReplaceServicePerimetersCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|commitServicePerimeters}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#commitServicePerimeters}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CommitServicePerimetersCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|listGcpUserAccessBindings}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#listGcpUserAccessBindings}.
                      * @param error Error, if any
                      * @param [response] ListGcpUserAccessBindingsResponse
                      */
                     type ListGcpUserAccessBindingsCallback = (error: (Error|null), response?: google.identity.accesscontextmanager.v1.ListGcpUserAccessBindingsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|getGcpUserAccessBinding}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#getGcpUserAccessBinding}.
                      * @param error Error, if any
                      * @param [response] GcpUserAccessBinding
                      */
                     type GetGcpUserAccessBindingCallback = (error: (Error|null), response?: google.identity.accesscontextmanager.v1.GcpUserAccessBinding) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|createGcpUserAccessBinding}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#createGcpUserAccessBinding}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateGcpUserAccessBindingCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|updateGcpUserAccessBinding}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#updateGcpUserAccessBinding}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateGcpUserAccessBindingCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager|deleteGcpUserAccessBinding}.
+                     * Callback as used by {@link google.identity.accesscontextmanager.v1.AccessContextManager#deleteGcpUserAccessBinding}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -8093,9 +8093,6 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
-            /** FieldOptions unverifiedLazy */
-            unverifiedLazy?: (boolean|null);
-
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -8132,9 +8129,6 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
-
-            /** FieldOptions unverifiedLazy. */
-            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -10049,35 +10043,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|listOperations}.
+             * Callback as used by {@link google.longrunning.Operations#listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|getOperation}.
+             * Callback as used by {@link google.longrunning.Operations#getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
