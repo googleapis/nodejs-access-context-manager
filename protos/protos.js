@@ -28892,6 +28892,12 @@
                             return object;
                         var message = new $root.google.iam.v1.AuditLogConfig();
                         switch (object.logType) {
+                        default:
+                            if (typeof object.logType === "number") {
+                                message.logType = object.logType;
+                                break;
+                            }
+                            break;
                         case "LOG_TYPE_UNSPECIFIED":
                         case 0:
                             message.logType = 0;
@@ -28937,7 +28943,7 @@
                         if (options.defaults)
                             object.logType = options.enums === String ? "LOG_TYPE_UNSPECIFIED" : 0;
                         if (message.logType != null && message.hasOwnProperty("logType"))
-                            object.logType = options.enums === String ? $root.google.iam.v1.AuditLogConfig.LogType[message.logType] : message.logType;
+                            object.logType = options.enums === String ? $root.google.iam.v1.AuditLogConfig.LogType[message.logType] === undefined ? message.logType : $root.google.iam.v1.AuditLogConfig.LogType[message.logType] : message.logType;
                         if (message.exemptedMembers && message.exemptedMembers.length) {
                             object.exemptedMembers = [];
                             for (var j = 0; j < message.exemptedMembers.length; ++j)
@@ -29474,6 +29480,12 @@
                             return object;
                         var message = new $root.google.iam.v1.BindingDelta();
                         switch (object.action) {
+                        default:
+                            if (typeof object.action === "number") {
+                                message.action = object.action;
+                                break;
+                            }
+                            break;
                         case "ACTION_UNSPECIFIED":
                         case 0:
                             message.action = 0;
@@ -29519,7 +29531,7 @@
                             object.condition = null;
                         }
                         if (message.action != null && message.hasOwnProperty("action"))
-                            object.action = options.enums === String ? $root.google.iam.v1.BindingDelta.Action[message.action] : message.action;
+                            object.action = options.enums === String ? $root.google.iam.v1.BindingDelta.Action[message.action] === undefined ? message.action : $root.google.iam.v1.BindingDelta.Action[message.action] : message.action;
                         if (message.role != null && message.hasOwnProperty("role"))
                             object.role = message.role;
                         if (message.member != null && message.hasOwnProperty("member"))
@@ -29784,6 +29796,12 @@
                             return object;
                         var message = new $root.google.iam.v1.AuditConfigDelta();
                         switch (object.action) {
+                        default:
+                            if (typeof object.action === "number") {
+                                message.action = object.action;
+                                break;
+                            }
+                            break;
                         case "ACTION_UNSPECIFIED":
                         case 0:
                             message.action = 0;
@@ -29826,7 +29844,7 @@
                             object.logType = "";
                         }
                         if (message.action != null && message.hasOwnProperty("action"))
-                            object.action = options.enums === String ? $root.google.iam.v1.AuditConfigDelta.Action[message.action] : message.action;
+                            object.action = options.enums === String ? $root.google.iam.v1.AuditConfigDelta.Action[message.action] === undefined ? message.action : $root.google.iam.v1.AuditConfigDelta.Action[message.action] : message.action;
                         if (message.service != null && message.hasOwnProperty("service"))
                             object.service = message.service;
                         if (message.exemptedMember != null && message.hasOwnProperty("exemptedMember"))
